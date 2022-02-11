@@ -58,7 +58,7 @@ export default function SignUp() {
 
     axios
       .post(
-        process.env.REACT_APP_API_URL_GENERATE_OTP,
+        'https://bl4x984vf5.execute-api.us-east-2.amazonaws.com/prod/generate',
         params
       )
       .then((data) => {
