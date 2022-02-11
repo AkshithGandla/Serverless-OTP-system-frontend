@@ -143,6 +143,16 @@ export default function Verify() {
             >
               {errors.otp && <p>{errors.otp}</p>}
             </div>
+            <div
+              style={{
+                color: "black",
+                display: "flex",
+                justifyContent: "center",
+                marginBottom: "4%",
+              }}
+            >
+            <p>Otp is successfully sent. Please check your inbox.</p>
+            </div>
             <Button
               style={{
                 display: "flex",
