@@ -52,8 +52,8 @@ You can access the site [here](https://serverless-otp-system-team-16.netlify.app
 ### Backend
 
 - Make an AWS account.
-- Create a new lambda function for node.js and paste the [gen-OTP.js](backend/gen-OTP.js) code into it.
-- Make another lambda function and paste the [ver-OTP.js](backend/ver-OTP.js) code into it.
+- Create a new lambda function for node.js and paste the [gen-OTP.js](Backend/gen-OTP.js) code into it.
+- Make another lambda function and paste the [ver-OTP.js](Backend/ver-OTP.js) code into it.
 - Make a DynamoDB table with **Email** as partition key. Add this DynamoDB as trigger to both the lambda functions after assigning them the **DynamoDBFullAccess** role.
 - Create a new AWS API gateway and integrate the methods with the respective lambda functions to get the desired endpoint URL.
 
