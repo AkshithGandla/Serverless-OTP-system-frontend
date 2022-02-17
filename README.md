@@ -6,7 +6,7 @@ Serverless-OTP-System is a web based application for email verification through 
 - It generates a 6 digit numeric OTP which will be sent for the mail used for registration/login.
 - It is hosted on scalable AWS cloud services, so it can handle any number of requests.
 
-![GitHub last commit](https://img.shields.io/github/last-commit/saicharith2012/Serverless-OTP-system-backend?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/saicharith2012/Serverless-OTP-system-frontend?style=plastic)
 
 ## Screenshots
 
