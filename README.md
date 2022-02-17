@@ -10,10 +10,10 @@ Serverless-OTP-System is a web based application for email verification through 
 
 ## Screenshots
 
-![Sign Up Page](https://i.imgur.com/Q0m0hRs.png)
-![Verify Page](https://i.imgur.com/Zwan07p.png)
-![Alert Message](https://i.imgur.com/RU7oWFV.png)
-![Alert Message](https://i.imgur.com/gt9oA4b.png)
+![Sign Up Page](https://i.imgur.com/XCY7Osd.png)
+![Verify Page](https://i.imgur.com/Pmv23l6.png)
+![Alert Message](https://i.imgur.com/MZJaUz9.png)
+![Alert Message](https://i.imgur.com/goCCKNw.png)
 ![Verification Email](https://i.imgur.com/GA5lrVX.png)
 
 ## Hosted URL
