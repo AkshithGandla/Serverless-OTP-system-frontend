@@ -4,9 +4,9 @@ Serverless-OTP-System is a web based OTP system for Email Verification.
 
 - You can register/login using your email ID.
 - It generates a 6 digit numeric OTP which will be sent for the mail used for registration/login.
-- It is hosted on scalable AWS cloud services, so it can handle any number of requests.
+- It is hosted on scalable AWS cloud services, so it can handle any number of thousands of requests.
 - This scalable OTP system can be used on any further applications which requires Email verification through One-Time-Password.
-- This OTP system is different from all the OTP systems out there in the scalability factor. The system will adjust the resources according to the number of requests being recieved.
+- This OTP system is different from all the OTP systems out there in the scalability factor. The system will adjust the resources according to the number of requests being recieved, thus the name serverless.
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/saicharith2012/Serverless-OTP-system-frontend?style=plastic)
 
