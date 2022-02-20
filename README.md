@@ -8,6 +8,10 @@ Serverless-OTP-System is a web based application for email verification through 
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/saicharith2012/Serverless-OTP-system-frontend?style=plastic)
 
+## Flowchart
+
+![Sign Up Page](https://i.imgur.com/nDoAH8E.png)
+
 ## Screenshots
 
 ![Sign Up Page](https://i.imgur.com/XCY7Osd.png)
@@ -31,15 +35,30 @@ You can access the site [here](https://serverless-otp-system-team-16.netlify.app
 
 - Backend hosted on AWS lamba will trigger on a frontend request and create an OTP and will send the verification mail to the user.
 - It hosts all the data of the users in AWS DynamoDB.
+- DynamoDB Schema used
+    - **Email**: It is the primary/partition key.
+    - **Expiry time**: It is three minutes after the user has requested for OTP. It is in epoch time (time in milli seconds from UTC 1970).
+    - **isVerified**: Verification status
+    - **OTP**: One time password
+    - **Tries**: Number of times the user has rrequested for OTP. It increases by 1 on every request. The maximum number of attempts a user has is 3.
 
 ## Technologies/Libraries/Packages Used
 
-- React.js
-- Node.js
-- AWS lambda
-- AWS API gateway
-- AWS DynamoDB
-- ExpressHandleBars
+- **React.js**
+    - This Javascript library is used to build frontend.
+- **AWS Lambda**
+    - It is function as a service, we don't have to worry about infra, high concurrent scalability.
+    - Alternatives: NodeJS Server on EC2
+- **AWS API gateway**
+    - **Pros**: It is easily integrated with AWS Lambda function. You can define HTTPS routes in this. You can configure the Lambda proxy integration which changes your request by adding neccesary data or can customise your own request and response body.
+    - **cons**: It can give you CORS error, but it can be solved through the same API gateway interface.
+    - **Alternatives**: nginx proxy + express routes
+- **AWS DynamoDB**
+    - It is a noSQL database. Easily integratable with AWS lambda.
+    - **Alternatives**: postgresQL/MySQL
+
+- **ExpressHandleBars**
+    - Used in this project mainly to send an email template to the user instead of normal plain text.
 
 ## Local Setup
 
