@@ -1,10 +1,12 @@
 # Serverless-OTP-System
 
-Serverless-OTP-System is a web based application for email verification through OTP.
+Serverless-OTP-System is a web based OTP system for Email Verification.
 
 - You can register/login using your email ID.
 - It generates a 6 digit numeric OTP which will be sent for the mail used for registration/login.
 - It is hosted on scalable AWS cloud services, so it can handle any number of requests.
+- This scalable OTP system can be used on any further applications which requires Email verification through One-Time-Password.
+- This OTP system is different from all the OTP systems out there in the scalability factor. The system will adjust the resources according to the number of requests being recieved.
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/saicharith2012/Serverless-OTP-system-frontend?style=plastic)
 
@@ -46,6 +48,8 @@ You can access the site [here](https://serverless-otp-system-team-16.netlify.app
 
 - **React.js**
     - This Javascript library is used to build frontend.
+- **Material UI**
+    - It is a React UI framework that follows Material Design principles. It is used for styling frontend.
 - **AWS Lambda**
     - It is function as a service, we don't have to worry about infra, high concurrent scalability.
     - Alternatives: NodeJS Server on EC2
@@ -65,7 +69,7 @@ You can access the site [here](https://serverless-otp-system-team-16.netlify.app
 ### Frontend
 
 - Clone this repository to your computer
-- Go to the Frontend folder and install all the dependencies using `npm install`.
+- Open the main directory and install all the dependencies using `npm install`.
 - Start the application using `npm run`.
 
 ### Backend
@@ -81,5 +85,5 @@ You can access the site [here](https://serverless-otp-system-team-16.netlify.app
 ### Team - 16
 
 - Gandla Akshith (2020BCS-030)
-- P Sai Charith (2020BCS-054)
+- P Sai Charith (2020BCS-54)
 - J J Loknath (2020BCS-041)
