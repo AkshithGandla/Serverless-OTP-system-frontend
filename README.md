@@ -81,5 +81,5 @@ You can access the site [here](https://serverless-otp-system-team-16.netlify.app
 ### Team - 16
 
 - Gandla Akshith (2020BCS-030)
-- P Sai Charith (2020BCS-54)
+- P Sai Charith (2020BCS-054)
 - J J Loknath (2020BCS-041)
