@@ -67,7 +67,7 @@ export default function Verify() {
 
     axios
       .post(
-        'https://uvp4u5er3k.execute-api.us-east-2.amazonaws.com/prod/verify',
+        '',
         params
       )
       .then((data) => {
